@@ -3,30 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tweets</title>
   </head>
   <body>
-    <h1>Funny Tweets!</h1>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-      <p lang="en" dir="ltr">
-        One day you’re young and the next you’re obsessed with cutting boards.
-        <a href="https://t.co/r5RrGt9uvr">pic.twitter.com/r5RrGt9uvr</a>
+    <main>
+      <article>
+        <h1>My Tweets</h1>
+
+        <blockquote class="twitter-tweet">
+          <a
+            href="https://twitter.com/messedupfoods/status/1816292282787848517"
+          ></a>
+        </blockquote>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+
+        <p><a href="index.html">Back to Home</a></p>
+      </article>
+
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>
+        Made by Your Name -
+        <a href="https://example.com" target="_blank">here</a>
       </p>
-      &mdash; Messed Up Foods (@messedupfoods)
-      <a
-        href="https://twitter.com/messedupfoods/status/1816292282787848517?ref_src=twsrc%5Etfw"
-        >March 31, 2014</a
-      >
-    </blockquote>
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
-
-    <!-- Link back to index.html -->
-    <p><a href="index.html">Go back to the homepage</a></p>
+    </footer>
   </body>
 </html>
